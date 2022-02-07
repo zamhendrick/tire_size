@@ -16,10 +16,10 @@ function compareTires() {
         const circumference = 2 * Math.PI * (parseFloat(diameter) / 2);
         const revs = 63360 / parseFloat(circumference);
 
-        result__width[i].value = width.toFixed(2);
-        result__sidewall[i].value = sidewall.toFixed(2);
-        result__diameter[i].value = diameter.toFixed(2);
-        result__circumference[i].value = circumference.toFixed(2);
-        result__revs[i].value = revs.toFixed(2);
+        result__width[i].value = width.toFixed(2) + '\"';
+        result__sidewall[i].value = sidewall.toFixed(2) + '\"';
+        result__diameter[i].value = diameter.toFixed(2) + '\"';
+        result__circumference[i].value = circumference.toFixed(2) + '\"';
+        result__revs[i].value = revs.toFixed(2) + '\"';
     }
 }
