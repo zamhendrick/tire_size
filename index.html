@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tire Size Calculator</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/master.css">
+    </head>
+    <body>
+        <h1 id="app__name">Tire Size Calculator</h1>
+        <div id="form">
+            <form>
+                <table id="form__table">
+                    <tr>
+                        <td>Size 1</td>
+                        <td><input type="number" id="width__0" class="input__width"></td>
+                        <td><strong>/</strong></td>
+                        <td><input type="number" id="ratio__0" class="input__ratio"></td>
+                        <td><strong>R</strong></td>
+                        <td><input type="number" id="rim__0" class="input__rim"></td>
+                    </tr>
+                    <tr>
+                        <td>Size 2</td>
+                        <td><input type="number" id="width__1" class="input__width"></td>
+                        <td><strong>/</strong></td>
+                        <td><input type="number" id="ratio__1" class="input__ratio"></td>
+                        <td><strong>R</strong></td>
+                        <td><input type="number" id="rim__1" class="input__rim"></td>
+                    </tr>
+                    <tr>
+                        <td>Size 3</td>
+                        <td><input type="number" id="width__2" class="input__width"></td>
+                        <td><strong>/</strong></td>
+                        <td><input type="number" id="ratio__2" class="input__ratio"></td>
+                        <td><strong>R</strong></td>
+                        <td><input type="number" id="rim__2" class="input__rim"></td>
+                    </tr>
+                </table>
+                <input type="button" value="Compare" onclick="compareTires()">
+            </form>
+        </div>
+        <div id="result">
+            <table id="result__table">
+                <tr>
+                    <th></th>
+                    <th>Size 1</th>
+                    <th>Size 2</th>
+                    <th>Size 3</th>
+                </tr>
+                <tr>
+                    <td class="label">Diameter</td>
+                    <td><input type="text" class="result__diameter"></td>
+                    <td><input type="text" class="result__diameter"></td>
+                    <td><input type="text" class="result__diameter"></td>
+                </tr>
+                <tr>
+                    <td class="label">Width</td>
+                    <td><input type="text" class="result__width"></td>
+                    <td><input type="text" class="result__width"></td>
+                    <td><input type="text" class="result__width"></td>
+                </tr>
+                <tr>
+                    <td class="label">Sidewall</td>
+                    <td><input type="text" class="result__sidewall"></td>
+                    <td><input type="text" class="result__sidewall"></td>
+                    <td><input type="text" class="result__sidewall"></td>
+                </tr>
+                <tr>
+                    <td class="label">Circumference</td>
+                    <td><input type="text" class="result__circumference"></td>
+                    <td><input type="text" class="result__circumference"></td>
+                    <td><input type="text" class="result__circumference"></td>
+                </tr>
+                <tr>
+                    <td class="label">Revs/Mile</td>
+                    <td><input type="text" class="result__revs"></td>
+                    <td><input type="text" class="result__revs"></td>
+                    <td><input type="text" class="result__revs"></td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            Made by Zam
+        </footer>
+    </body>
+
+    <script src="js/script.js"></script>
+</html>

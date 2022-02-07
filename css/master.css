@@ -1,0 +1,34 @@
+@import "style.css";
+@import "class.css";
+body {
+
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

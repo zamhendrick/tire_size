@@ -1,0 +1,78 @@
+#app__name {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#form {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#form form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 0.3rem;
+}
+
+#form__table {
+  margin-bottom: 1rem;
+}
+
+#form__table input[type=number] {
+  width: 2rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+#form input[type=button] {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: #78d21e;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+#result__table {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+}
+
+#result__table th {
+  padding: 0 0.3rem;
+}
+
+#result__table td {
+  text-align: center;
+}
+
+#result__table td.label {
+  text-align: right;
+}
+
+#result__table td input[type=text] {
+  width: 3rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
